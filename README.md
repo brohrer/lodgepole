@@ -1,7 +1,8 @@
 # lodgepole
 Image and video processing toolbox
 
-https://en.wikipedia.org/wiki/Pinus_contorta
+Lodgepole relies on the [FFMPEG](https://ffmpeg.org/)
+library when working with video.
 
 ![Lodgpole pine](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Lodgepole%2C_looking_east.jpg/324px-Lodgepole%2C_looking_east.jpg)
 
