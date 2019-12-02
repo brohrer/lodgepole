@@ -1,3 +1,4 @@
+from numba import autojit
 import numpy as np
 
 
@@ -7,7 +8,7 @@ def gamma_decompress(img):
     """
     img_lin = ((img + 0.055) / 1.055) ** 2.4
     i_low = np.where(img <= .04045)
-    img_lin[i_low] = img_lin[i_low] / 12.92
+    img_lin[i_low] = img[i_low] / 12.92
     return img_lin
 
 
@@ -36,7 +37,7 @@ def rgb2gray_linear(rgb_img):
 
     return gray_img
 
-
+@autojit(nopython=True)
 def rgb2gray_approx(rgb_img):
     """
     Convert *linear* RGB values to *linear* grayscale values.
