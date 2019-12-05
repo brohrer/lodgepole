@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 st.setup(
     name='lodgepole',
-    version='1',
+    version='3',
     description='A toolbox for image and video processing',
     url='http://github.com/brohrer/lodgepole',
     download_url='https://github.com/brohrer/lodgepole/tags/',
