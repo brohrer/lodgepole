@@ -12,7 +12,7 @@ It also makes heavy use of Numpy and Matplotlib.
 Here's the bash one-liner:
 
 ```bash
-python3 -m pip install git+https://github.com/brohrer/lodgepole.git --user
+python3 -m pip install git+https://github.com/brohrer/lodgepole.git --user --no-cache
 ```
 
 ## About the name
