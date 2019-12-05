@@ -9,10 +9,11 @@ It also makes heavy use of Numpy and Matplotlib.
 
 ## Installation
 
-Here's the bash one-liner:
+To use it:
 
 ```bash
-python3 -m pip install git+https://github.com/brohrer/lodgepole.git --user --no-cache
+git clone https://github.com/brohrer/lodgepole.git
+python3 -m pip install -e lodgepole
 ```
 
 ## About the name
