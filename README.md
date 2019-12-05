@@ -9,12 +9,10 @@ It also makes heavy use of Numpy and Matplotlib.
 
 ## Installation
 
-If you'd like to use these tools, you'll want
-to clone the repository to your local machine and install it from there.
+Here's the bash one-liner:
 
 ```bash
-git clone https://github.com/brohrer/lodgepole.git
-python3 -m pip install -e lodgepole
+python3 -m pip install git+https://github.com/brohrer/lodgepole.git --user
 ```
 
 ## About the name
