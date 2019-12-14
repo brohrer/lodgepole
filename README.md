@@ -1,4 +1,33 @@
-# lodgepole
+# WE'VE MOVED
+
+### This repository is now being hosted on GitLab's servers.
+Check it out at [https://gitlab.com/brohrer/lodgepole](https://gitlab.com/brohrer/lodgepole).
+Install from there. Update from there.
+
+To make the switch on your local machine command line run
+
+git remote set-url origin git@gitlab.com:brohrer/lodgepole.git
+
+or
+
+git remote set-url origin https://gitlab.com/brohrer/lodgepole.git
+
+depending on which protocol you're using.
+
+This repo is being deprecated and will no longer be updated. BTW GitLab is pretty intuitive if you're already familiar with GitHub. [Check it out.](https://gitlab.com/)
+
+--
+
+--
+
+--
+
+--
+
+--
+
+--
+# Lodgepole
 Image and video processing toolbox
 
 ## Dependencies
